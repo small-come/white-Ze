@@ -57,6 +57,11 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
+            <Name>Develop</Name>
+            <Targets>*.npmjs.org</Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
             <Name>Github</Name>
             <Targets>*.github.com; *.github.io; *.githubassets.com; *.githubusercontent.com; *.rawgithub.com</Targets>
             <Action type="Proxy">100</Action>
