@@ -58,7 +58,7 @@
         </Rule>
         <Rule enabled="true">
             <Name>OpenAI</Name>
-            <Targets>*.chatgpt.com; *.oaistatic.com</Targets>
+            <Targets>chatgpt.com; *.chatgpt.com; *.oaistatic.com</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
