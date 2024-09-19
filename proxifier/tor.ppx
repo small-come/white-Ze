@@ -38,7 +38,7 @@
         </Rule>
         <Rule enabled="true">
             <Name>Application</Name>
-            <Targets>*.mypikpak.com; *.telegram.org; *.cloudflare.com; *.piaotia.com</Targets>
+            <Targets>*.mypikpak.com; *.telegram.org; *.docker.com; *.cloudflare.com; *.piaotia.com</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
