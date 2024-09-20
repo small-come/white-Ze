@@ -38,7 +38,17 @@
         </Rule>
         <Rule enabled="true">
             <Name>Application</Name>
-            <Targets>*.mypikpak.com; *.telegram.org; *.docker.com; *.cloudflare.com; *.piaotia.com</Targets>
+            <Targets>*.mypikpak.com; *.telegram.org; *.docker.com; *.cloudflare.com</Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Others</Name>
+            <Targets>*.piaotia.com; *.uukanshu.cc</Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Develop</Name>
+            <Targets>*.npmjs.org</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
@@ -69,11 +79,6 @@
         <Rule enabled="true">
             <Name>Homebrew</Name>
             <Targets>homebrew.bintray.com; dl.bintray.com; *.brew.sh; *.caskroom.io</Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
-            <Name>Develop</Name>
-            <Targets>*.npmjs.org</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
