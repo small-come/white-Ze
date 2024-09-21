@@ -19,7 +19,7 @@
     </Options>
     <ProxyList>
         <Proxy id="100" type="SOCKS5">
-            <Address>127.0.0.1</Address>
+            <Address>local.alluniverse.vip</Address>
             <Port>21080</Port>
             <Options>0</Options>
         </Proxy>
