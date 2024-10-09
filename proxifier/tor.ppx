@@ -52,11 +52,6 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
-            <Name>Apple</Name>
-            <Targets>*.cdn-apple.com; *apple.com.akadns.net; *.apple.com; *.akamaiedge.net; apple.xdwscache.ourglb0.com; *.dtwscache.ourwebcdn.com</Targets>
-            <Action type="Proxy">100</Action>
-        </Rule>
-        <Rule enabled="true">
             <Name>Google</Name>
             <Targets>*.google.com; *.googleapis.com; *.googlevideo.com; *.gstatic.com; *.googleusercontent.com; *.gmail.com</Targets>
             <Action type="Proxy">100</Action>
@@ -74,6 +69,11 @@
         <Rule enabled="true">
             <Name>Github</Name>
             <Targets>*.github.com; *.github.io; *.githubassets.com; *.githubusercontent.com; *.rawgithub.com; github-cloud.s3.amazonaws.com</Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
+            <Name>Apple</Name>
+            <Targets>*.cdn-apple.com; *apple.com.akadns.net; *.apple.com; *.akamaiedge.net; apple.xdwscache.ourglb0.com; *.dtwscache.ourwebcdn.com</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
