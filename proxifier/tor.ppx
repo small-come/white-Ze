@@ -43,12 +43,12 @@
         </Rule>
         <Rule enabled="true">
             <Name>Others</Name>
-            <Targets>*.piaotia.com; *.uukanshu.cc;</Targets>
+            <Targets>*.piaotia.com; *.uukanshu.cc</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
             <Name>Develop</Name>
-            <Targets>*.npmjs.org</Targets>
+            <Targets>*.npmjs.org; *.huggingface.co</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
