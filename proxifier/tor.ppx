@@ -43,7 +43,7 @@
         </Rule>
         <Rule enabled="true">
             <Name>Others</Name>
-            <Targets>*.piaotia.com; *.uukanshu.cc; *.forgecdn.net</Targets>
+            <Targets>*.piaotia.com; uukanshu.cc; *.forgecdn.net</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
