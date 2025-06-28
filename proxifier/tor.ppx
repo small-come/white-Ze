@@ -57,6 +57,11 @@
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
+            <Name>Tiktok</Name>
+            <Targets>*.tiktok.com</Targets>
+            <Action type="Proxy">100</Action>
+        </Rule>
+        <Rule enabled="true">
             <Name>Youtube</Name>
             <Targets>*.youtube.com; *.ytimg.com; *.ytstatic.com; *.youtube-nocookie.com</Targets>
             <Action type="Proxy">100</Action>
