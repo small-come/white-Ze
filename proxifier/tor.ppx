@@ -58,7 +58,7 @@
         </Rule>
         <Rule enabled="true">
             <Name>Tiktok</Name>
-            <Targets>*.tiktok.com</Targets>
+            <Targets>*.tiktok.com; *.tiktokcdn-us.com</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
